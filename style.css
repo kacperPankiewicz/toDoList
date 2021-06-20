@@ -1,0 +1,87 @@
+
+body{
+    background: linear-gradient(to left, #990099 0%, #330e42 100%);
+}
+#container{
+    height: auto;
+    width: 900px;
+    position: static;
+    margin: auto;
+    text-align: center;
+    
+}
+.add{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    margin: auto;
+
+}
+input{
+    border: none;
+}
+#add_value{
+    float:left;
+    margin-left: 10px;
+    margin-top: 7px;
+    font-size: 30px;
+    width: 290px;
+}
+.add_button{
+    color:cornflowerblue;
+    font-weight:bold;
+    font-size:30px;
+    margin-right: 10px;
+    margin-top: 7px;
+    float:right;
+    background-color: white;
+}
+#placeholder{
+    width: auto;
+    height: 30px;
+}
+#list{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    margin:auto;
+}
+#tab{
+   
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 30px;
+    width: auto;
+    height: auto;
+}
+td{
+    border-bottom: 3px solid green ;
+    width: 380px;
+    height: auto;
+    text-align: center;
+}
+.box{
+    
+    visibility: hidden;
+}
+input:checked + label {
+    text-decoration: line-through;
+}
+::selection {
+  color: black;
+  background: none;
+}
+label{
+    width: 100%;
+}
+#buttonDiv{
+
+}
+#button_s{
+float:right;
+position: absolute;
+bottom: 0;
+
+}
